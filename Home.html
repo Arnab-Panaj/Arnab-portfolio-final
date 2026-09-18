@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student portfolio</title>
+  </head>
+  <body>
+    <!-- main container -->
+    <div id="main-container">
+      <!-- left container -->
+      <div id="left-container" class="dark-theme">
+        <!-- Image -->
+        <div id="image-container">
+          <img src="/image/image.jpeg" alt="profile image" id="profile-image" />
+        </div>
+
+        <!-- navigation bar -->
+        <div id="nav-container">
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="#"
+                  id="home-button"
+                  class="navigation-button"
+                  data-target="home-container"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  id="personal-details-button"
+                  class="navigation-button"
+                  data-target="personal-details-container"
+                >
+                  <!-- In HTML, attributes starting with data- are called custom data attributes. It's basically storing some information inside the <a> element. -->
+
+                  Personal Details</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#education-container"
+                  id="education-button"
+                  class="navigation-button"
+                  data-target="education-container"
+                  >Education</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  id="internship-button"
+                  class="navigation-button"
+                  data-target="internship-container"
+                  >Internship</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  id="project-button"
+                  class="navigation-button"
+                  data-target="project-container"
+                  >Project</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  id="skill-button"
+                  class="navigation-button"
+                  data-target="skill-container"
+                  >Skill</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  id="contact-me-button"
+                  class="navigation-button"
+                  data-target="contact-me-container"
+                  >Contact Me</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  id="admin-login-button"
+                  class="navigation-button"
+                  data-target="admin-login-container"
+                  >Admin Login</a
+                >
+              </li>
+              <li>
+                <button id="theme-toggle">
+                  <i id="theme-icon" class="fa-solid fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- right container -->
+      <div id="right-container" class="dark-theme">
+        <!-- home-container -->
+        <div id="home-container">
+          <div id="home-information-container">
+            <div id="home-information">
+              <h2 id="home-h2">Hello, I'm Arnab Panja</h2>
+              <h3>
+                B.Tech CSE Student & interested in software engineering, full
+                stack development.
+              </h3>
+            </div>
+            <div id="home-information-about">
+              I am computer Science and Engineering student passionate about
+              software development and building practical web application.
+              <br />I enjoy learning new technologies, solving problems, and
+              turing ideas into usefull digital solution.
+            </div>
+          </div>
+        </div>
+        <!-- personal-details-container -->
+        <div id="personal-details-container">
+          <div id="personal-details-main-container">
+            <div id="info-obj-container">
+              <div id="info-container" class="info-obj info-obj-add">
+                <div id="information-container">
+                  <p class="information-style">
+                    <strong>Name: </strong> Arnab Panja
+                  </p>
+                  <p class="information">
+                    <strong>Email: </strong> arnabpanja358@gmail.com
+                  </p>
+                  <p class="information">
+                    <strong>Phone No.: </strong>8159972507
+                  </p>
+                  <p class="information">
+                    <strong>Date of birth: </strong>25/06/2004
+                  </p>
+                  <p class="information">
+                    <strong>Language Known: </strong> English, Bengali
+                  </p>
+                  <p class="information">
+                    <strong>Hobbies: </strong> literature, Drawing
+                  </p>
+                  <div id="social-links">
+                    <a href="https://github.com/Arnab-Panaj ">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/arnab-panja-200b17301/"
+                    >
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div id="objective-container" class="info-obj info-obj-add">
+                <div id="objective-information">
+                  <h2>Career Objective</h2>
+                  <ul>
+                    <li>
+                      Seeking an opportunity to begin my professional career in
+                      a reputed organization where I can apply my skills and
+                      knowledge effectively.
+                    </li>
+                    <li>
+                      Eager to learn new technologies, gain practical
+                      experience, and contribute to organizational success.
+                    </li>
+                    <li>
+                      Dedicated to continuous growth and excellence in my work.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="address-container">
+              <div class="info-obj-add" id="address-main-container">
+                <div id="address-information">
+                  <h2>Address</h2>
+                  <ul>
+                    <li><strong>Village: </strong>Kanchantala</li>
+                    <li><strong>Post: </strong>Magra</li>
+                    <li><strong>Police Station: </strong>Keshpur</li>
+                    <li><strong>District: </strong>Paschim Medinipur</li>
+                    <li><strong>State: </strong>West Bengal</li>
+                    <li><strong>Pin: </strong>721156</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- education-container -->
+        <div id="education-container">
+          <div id="education-main-container">
+            <div id="education-details-1" class="education-details">
+              <div id="graduation-container" class="education-information">
+                <h2>B Tech</h2>
+                <p>
+                  <strong>College: </strong>B. P. Poddar Institue of Management
+                  and Technology
+                </p>
+                <p><strong>Location: </strong>Kolkata, West Bengal</p>
+                <p>
+                  <strong>Course: </strong>B Tech in Computer Science and
+                  Engineering (6th sem passing)
+                </p>
+                <p><strong>Session: </strong> 2023-2027</p>
+                <p><strong>CGPA: </strong>8.3</p>
+              </div>
+            </div>
+            <div id="education-details-2" class="education-details">
+              <div
+                id="higher-secondary-container"
+                class="education-information"
+              >
+                <h2>Higher Secondary</h2>
+                <p><strong>Institution: </strong>Vidyasagr Vidyapath</p>
+                <p>
+                  <strong>Location: </strong>Midnapore, Paschim Medinipur, West
+                  Bengal
+                </p>
+                <p><strong>Board: </strong>WBCHSE</p>
+                <p><strong>Branch: </strong>Science</p>
+                <p><strong>Mark Obtains: </strong>88%</p>
+              </div>
+            </div>
+            <div id="education-details-3" class="education-details">
+              <div id="madhyamik-container" class="education-information">
+                <h2>Madhyamik</h2>
+                <p>
+                  <strong>Institution: </strong> Kanchantal S.N. High School
+                </p>
+                <p>
+                  <strong>Location: </strong> Kanckantala, Marga, Keshpur,
+                  Paschim Medinipur , West Bengal
+                </p>
+                <p><strong>Board: </strong> WBBSE</p>
+                <p><strong>Mark Obtains: </strong> 94%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- internship-container -->
+        <div id="internship-container">
+          <div id="internship-main-container">
+            <div id="intern-1" class="internship-info">
+              <div id="intern-1-details">
+                <h2>Internship and Training</h2>
+                <p><strong>From: </strong> TechGment</p>
+                <p><strong>Duration</strong> from: 10/03/26 to: 10/04/26</p>
+                <p><strong>Learn: </strong> Machine Learning Model</p>
+                <p><strong>Project: </strong>Studetn Performance Prediction</p>
+              </div>
+              <div class="intern-1-image-container" id="intern-1image-1">
+                <a
+                  href="./image/Techgment Certificate Training.pdf"
+                  target="_blank"
+                >
+                  <img
+                    src="./image/techGment-taining.png"
+                    alt="training certificate"
+                  />
+                </a>
+              </div>
+
+              <div class="intern-1-image-container" id="intern-1image-2">
+                <a
+                  href="./image/Techgment Certificate Internship.pdf"
+                  target="_blank"
+                >
+                  <img
+                    src="./image/techGment-inten.png"
+                    alt="internship certificate"
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="intern-2" class="internship-info"></div>
+            <div id="intern-3" class="internship-info"></div>
+          </div>
+        </div>
+
+        <!-- poject container -->
+        <div id="project-container">
+          <div id="project-main-container">
+            <div id="project-1" class="projects">
+              <h2>Student Portfolio Project</h2>
+              <p>
+                <strong>Details: </strong> A responsive personal portfolio
+                website developed to showcase my educational background,
+                technical skills, projects, internships, and career objectives.
+                The website provides a structured and user-friendly interface
+                where visitors can explore my profile and professional
+                information.
+              </p>
+              <strong>Ke Features: </strong>
+              <ul>
+                <li>Personal and educational information</li>
+                <li>Career objective section</li>
+                <li>Project and internship details</li>
+                <li>Contact form for communication</li>
+                <li>GitHub and LinkedIn profile links</li>
+                <li>Admin login interface</li>
+                <li>Light and dark theme support</li>
+                <li>Responsive design for different screen sizes</li>
+                <li>Interactive UI elements and hover effects</li>
+              </ul>
+              <strong>Technology Used: </strong> HTML, CSS, JavaScript, Font
+              Awesome
+            </div>
+            <div id="project-2" class="projects"></div>
+            <div id="project-3" class="projects"></div>
+          </div>
+        </div>
+        <div id="skill-container">
+          <div id="skills-main-container">
+            <h2>Skills</h2>
+            <div id="skill-information">
+              <div id="skills-details-container">
+                <div class="skill-card">
+                  <h3>Programming</h3>
+                  <p>C</p>
+                  <p>C++</p>
+                  <p>Java</p>
+                </div>
+
+                <div class="skill-card">
+                  <h3>Web Development</h3>
+                  <p>Spring Boot</p>
+                  <p>React</p>
+                  <p>Docker</p>
+                </div>
+
+                <div class="skill-card">
+                  <h3>Databases</h3>
+                  <p>MySQL</p>
+                  <p>Oracle</p>
+                </div>
+
+                <div class="skill-card">
+                  <h3>Soft Skill</h3>
+                  <p>Problem Solving</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact me section -->
+        <div id="contact-me-container">
+          <div id="contact-me-main-conatiner">
+            <div id="contact-me-information">
+              <section class="section-blocks" id="contact-me-section">
+                <h2 class="contact-me-details-class">Contact me</h2>
+                <form id="contact-form">
+                  <div id="name" class="contact-me-details-class">
+                    <label><strong>Name: </strong> </label>
+                    <input type="text" id="input-name" required />
+                  </div>
+
+                  <div id="email" class="contact-me-details-class">
+                    <label><strong>Email: </strong> </label>
+                    <input type="email" id="input-email" required />
+                  </div>
+
+                  <div id="message" class="contact-me-details-class">
+                    <label><strong>Message: </strong></label>
+                    <textarea id="input-message" required></textarea>
+                  </div>
+                  <button id="submit-button"><strong>Submit</strong></button>
+                </form>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <!-- Admin log in container -->
+        <div id="admin-login-container">
+          <div id="admin-login-main-container">
+            <div
+              id="admin-login-information-container"
+              class="admin-login-information-class"
+            >
+              <div id="admin-login-information">
+                <section id="admin-login-section" class="section-blocks">
+                  <h2 id="admin-login-heading">Admin Login</h2>
+                  <form id="admin-form">
+                    <div id="Username">
+                      <!-- <label>UserName: </label> -->
+                      <input
+                        type="text"
+                        placeholder="UserName"
+                        class="admin-login-info"
+                        required
+                        id="input-username"
+                      />
+                    </div>
+
+                    <div id="Password">
+                      <!-- <label>Password: </label> -->
+                      <input
+                        type="password"
+                        placeholder="Password"
+                        class="admin-login-info"
+                        required
+                        id="input-password"
+                      />
+                    </div>
+
+                    <button class="admin-login-info" id="admin-lognin-submit">
+                      <strong>Submit</strong>
+                    </button>
+                  </form>
+                </section>
+              </div>
+            </div>
+            <div class="admin-login-information-class">
+              <div id="admin-login-image">
+                <img
+                  src="./image/admin-login-image.jpeg"
+                  alt="admin login image"
+                  class="light-image"
+                />
+                <img
+                  src="./image/admin-login-image-dark.jpeg"
+                  alt="admin login image"
+                  class="dark-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- User Response Container -->
+
+        <div id="user-response">
+          <div id="user-response-main-container">
+            <div id="user-response-information">
+              <section id="user-response-section" class="section-blocks">
+                <h2 id="user-response-heading">User Messages</h2>
+
+                <div id="user-messages">
+                  <!-- Messages will be added here by JavaScript -->
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
